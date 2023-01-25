@@ -1,0 +1,15 @@
+.foto {
+    display: none;
+}
+
+#titulo {
+    color: red;
+}
+
+.lista {
+    list-style-type:square;
+}
+
+#educacion {
+    display: none;
+}
