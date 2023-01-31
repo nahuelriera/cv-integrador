@@ -29,7 +29,7 @@
 
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.685231143753!2d-58.54623518527338!3d-34.58683036411072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb782d80f3adf%3A0xcda78c3132d7b466!2sC.%20Lincoln%206485%2C%20Villa%20Lynch%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1674934294998!5m2!1ses!2sar" style="border:none" title="ubicacion del domicilio" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
-    <button type="button" id="boton-educacion">Formacion academica</button>
+    <button type="button" class="botones" id="boton-educacion">Formacion academica</button>
 
     <ul class="lista" id="educacion">
         <li>Educacion primaria: Instituto San Miguel Garicoits</li>
@@ -38,14 +38,45 @@
         <li>En la actualidad: aprendiendo programacion en Argentina Programa</li>
     </ul>
 
-    <button type="button" id="boton-laboral">Experiencia laboral</button>
+    <button type="button" class="botones" id="boton-laboral">Experiencia laboral</button>
 
     <ul class="lista" id="laboral">
         <li>Atencion al cliente en Grupo Souza entre 2013 y 2015</li>
         <li>Asistente de recursos humanos en Carrefour Argentina entre 2015 y 2018</li>
         <li>Atencion al cliente en call center Movistar entre 2018 y 2020</li>
-        <li>Empleado administrativo en importante empresa de comercio exterior desde el 2020 hasta la actualidad</li>
+        <li>Empleado administrativo en Grupo Serena, importante empresa de comercio exterior desde el 2020 hasta la actualidad</li>
     </ul>
+
+    <button type="button" class="botones" id="boton-referencias">Referencias</button>
+
+    <ul class="lista" id="referencias">
+        <li>Analia Ditore de Grupo Souza - analia@example.com - cel: 1122334455</li>
+        <li>Daiana Fernandez de Carrefour - daiana@example.com - cel: 1166778899</li>
+        <li>Nahuel Hernandez de Movistar - nahuel@example.com - cel: 1123456789</li>
+        <li>Nicolas Diaz de Grupo Serena - nicolas@example.com - cel: 1198765432</li>
+    </ul>
+
+    <p>Despues de observar mi cv ¿Esta intereado/a en contratarme?</p>
+
+    <form>
+        <input type="radio" id="responde-si" name="opcion_trabajo" value="Si">
+        <label for="Si">Si,estoy interesado/a</label>
+        <input type="radio" id="responde-no" name="opcion_trabajo" value="No">
+        <label for="No">No, no estoy interesado/a</label>
+    </form> 
+
+    <form>
+        <fieldset>
+          <legend>Envio de E-mail de incorporacion</legend>
+          <label for="e-mail1">De:</label><br>
+          <input type="text" id="Email" name="e-mail1" value="alguien@example.com"><br>
+          <label for="e-mail2">Para:</label><br>
+          <input type="text" id="Email2" name="e-mail2" value="manuel.romero@example.com"><br><br>
+          <label for="mensaje">Mensaje:</label><br>
+          <input type="text" id="mensaje" name="mensaje" value="Felicitaciones Manuel, ya sos parte de nuestra empresa!!"><br><br>
+          <input type="submit" value="enviar aprobacion">
+        </fieldset>
+      </form>
 
     <script src="CV_INTEGRADOR/cv.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>

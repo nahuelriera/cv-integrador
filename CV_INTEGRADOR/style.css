@@ -1,21 +1,3 @@
-button {
-    display: block;
-    margin-left: 45%;
-    background-color: blue;
-    color:white;
-    border: solid;
-    padding: 15px 32px;
-    font-size: 16px;
-    border-radius: 12px;
-    border-radius: 12px;
-    transition-duration: 0.5s;
-}
-
-button:hover {
-    background-color: rgb(52, 52, 227);
-    color: white;
-  }
-
 #titulo {
     font-family: 'Lora', serif;
     font-size: 75px;
@@ -34,7 +16,11 @@ button:hover {
     margin-left: 45%;
 }
 
-#educacion, #laboral {
+#datos-personales {
+    text-decoration: underline;
+}
+
+#educacion, #laboral, #referencias {
     text-decoration-line: underline;
     margin-left: 2%;
     display: none;
@@ -46,3 +32,21 @@ button:hover {
     border-style: dotted;
     border-color: black;
 }
+
+
+.botones {
+    display: block;
+    margin-left: 45%;
+    background-color: blue;
+    color:white;
+    border: solid;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.5s;
+}
+
+.botones:hover {
+    background-color: rgb(52, 52, 227);
+    color: white;
+  }
