@@ -20,6 +20,10 @@ header {
     margin-left: 41%;
 }
 
+#foto:hover {
+    border-style: dashed;
+}
+
 #datos-personales {
     text-decoration: underline;
 }
