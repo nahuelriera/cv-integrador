@@ -24,7 +24,7 @@ function respuesta(elemento1, elemento2, elemento3) {
     })
 }
 
-cargaLaPagina("cookies", alert("Este sitio web contiene cookies que van a mejorar su experiencia como usuario"))
+cargaLaPagina("presentacion", alert("Bienvenido al Curriculum de Manuel Romero, para continuar presione aceptar"))
 
 subrayado("titulo")
 
